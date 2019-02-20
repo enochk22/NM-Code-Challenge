@@ -1,6 +1,10 @@
 # Daily Dose of Doge, Northwestern Mutual code challenge
 
+Prompt:
+
 Create a responsive (phone, tablet, desktop) web application that allows the user to quick filter a list of things. The top of the page will have a search input field and then below that a list of things in response to the filter. The things should be sorted alphabetically. The things could be anything, but should be AJAX pulled from a backend service that you write and should ultimately be pulled from an open public API.
+
+## Introduction
 
 We all love dogs. In fact, who doesn't? Daily Dose of Doges (DDD) is a web app that contains hundreds of thousands of dog pics.
 
@@ -12,13 +16,13 @@ Here is a screenshot of the web app:
 
 ## Running the app
 
-First create a local copy of the application on your machine
+First clone the repository to create a local copy on your machine:
 
 ```
 git clone https://github.com/enochk22/daily-dose-of-doge.git
 ```
 
-Once installed, open a new terminal window and ```cd``` into the installed directory, and run:
+To start node server:
 
 ```
 cd nm-api && yarn install && yarn start
@@ -30,6 +34,6 @@ to fire up the web app, go to the root directory and run:
 cd nm-react && yarn install && yarn start
 ```
 
-```yarn install``` will make sure you have all the necessary node dependencies installed. Go to ```localhost:3000``` to use the web app.
+```yarn install``` will make sure you have all the necessary dependencies installed. Go to ```localhost:3000``` to use the web app.
 
 
